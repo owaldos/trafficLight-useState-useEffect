@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const Light = ({ lightOn }) => {
 	return (
 		<>
-			<div className={lightOn ? "light luz" : "light"}></div>
+			<div className={lightOn ? "lamp light" : "lamp"}></div>
 		</>
 	);
 };
